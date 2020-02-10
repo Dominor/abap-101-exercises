@@ -13,7 +13,7 @@ TYPES: number_of_unpaid_invoices TYPE n LENGTH 7,
 
 TYPES: BEGIN OF customer_details,
          name              TYPE customer_name,
-         n_of_employees    LIKE number_of_employees,
+         n_employees    LIKE number_of_employees,
          n_unpaid_invoices TYPE number_of_unpaid_invoices,
          registration_date TYPE creation_date,
          time_last_updated TYPE last_changed_at,
